@@ -13,3 +13,12 @@ CRUD API
 
 #### Run server
 ```uvicorn main:app --reload```
+
+#### Create Database
+``` CREATE DATABASE fastapi; ```
+
+#### Use Database
+``` USE fastapi; ```
+
+#### Create Table
+``` CREATE TABLE IF NOT EXISTS users (id INT AUTO_INCREMENT PRIMARY KEY,name VARCHAR(100),email VARCHAR(100),age INT); ```   
